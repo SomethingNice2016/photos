@@ -18,7 +18,7 @@
 
     <dialog
         android:id="@+id/imageDetail"
-        android:name="com.somenthingnice.photos.features.ImageDetailDialog">
+        android:name="com.somenthingnice.photos.features.details.ImageDetailDialog">
         <argument
             android:name="url"
             app:argType="string"/>

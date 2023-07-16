@@ -1,4 +1,4 @@
-package com.somenthingnice.photos.features
+package com.somenthingnice.photos.features.details
 
 import android.graphics.drawable.Drawable
 import android.os.Bundle
@@ -20,7 +20,7 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class ImageDetailDialog : DialogFragment(R.layout.dialog_image_detail), RequestListener<Drawable?> {
 
-    private val args: ImageDetailDialogArgs by navArgs()
+    private val args: com.somenthingnice.photos.features.ImageDetailDialogArgs by navArgs()
 
     private val binding: DialogImageDetailBinding by viewBinding()
 
